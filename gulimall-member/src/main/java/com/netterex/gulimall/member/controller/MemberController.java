@@ -5,6 +5,8 @@ import java.util.Map;
 
 import com.netterex.gulimall.member.feign.OrderFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,6 +27,8 @@ import com.netterex.common.utils.R;
  * @email netterxu@gmail.com
  * @date 2024-05-17 15:09:10
  */
+
+@RefreshScope
 @RestController
 @RequestMapping("member/member")
 public class MemberController {
@@ -33,6 +37,17 @@ public class MemberController {
 
     @Autowired
     private OrderFeignService orderFeignService;
+
+    @Value("${member.user.name}")
+    private String name;
+
+    @Value("${member.user.age}")
+    private String age;
+
+    @RequestMapping("/getconfig")
+    public R getConfig() {
+        return R.ok().put("name", name).put("age", age);
+    }
 
     @RequestMapping("/list/orders")
     public R orderslist() {

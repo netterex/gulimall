@@ -17,5 +17,10 @@ mybatis-plus:
     db-config:
       id-type: auto
 
+member:
+  user:
+    name: lisi
+    age: 20
+
 server:
   port: 8000
