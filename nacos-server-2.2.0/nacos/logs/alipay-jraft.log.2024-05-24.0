@@ -1,0 +1,140 @@
+2024-05-24 12:12:08,309 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2024-05-24 12:12:08,538 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2024-05-24 12:12:08,922 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2024-05-24 12:12:08,934 INFO The number of active nodes increment to 1.
+
+2024-05-24 12:12:09,484 INFO Starts FSMCaller successfully.
+
+2024-05-24 12:12:09,518 INFO Loading snapshot, meta=last_included_index: 3
+last_included_term: 3
+peers: "192.168.1.5:7848"
+.
+
+2024-05-24 12:12:09,843 INFO Node <naming_persistent_service_v2/192.168.1.5:7848> onSnapshotLoadDone, last_included_index: 3
+last_included_term: 3
+peers: "192.168.1.5:7848"
+
+
+2024-05-24 12:12:09,849 INFO Node <naming_persistent_service_v2/192.168.1.5:7848> target priority value has changed from: 0, to: -1.
+
+2024-05-24 12:12:09,926 INFO Node <naming_persistent_service_v2/192.168.1.5:7848> init, term=3, lastLogId=LogId [index=3, term=3], conf=192.168.1.5:7848, oldConf=.
+
+2024-05-24 12:12:09,933 INFO Node <naming_persistent_service_v2/192.168.1.5:7848> start vote and grant vote self, term=3.
+
+2024-05-24 12:12:09,975 WARN Unable to fsync directory D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2024-05-24 12:12:09,975 INFO Save raft meta, path=D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=4, votedFor=192.168.1.5:7848, cost time=36 ms
+
+2024-05-24 12:12:09,977 INFO Node <naming_persistent_service_v2/192.168.1.5:7848> become leader of group, term=4, conf=192.168.1.5:7848, oldConf=.
+
+2024-05-24 12:12:09,987 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2024-05-24 12:12:09,994 WARN RPC server is not started in RaftGroupService.
+
+2024-05-24 12:12:09,994 INFO Start the RaftGroupService successfully.
+
+2024-05-24 12:12:10,020 INFO onLeaderStart: term=4.
+
+2024-05-24 12:12:10,070 INFO The number of active nodes increment to 2.
+
+2024-05-24 12:12:10,649 INFO Starts FSMCaller successfully.
+
+2024-05-24 12:12:10,664 INFO Loading snapshot, meta=last_included_index: 3
+last_included_term: 3
+peers: "192.168.1.5:7848"
+.
+
+2024-05-24 12:12:10,687 INFO Node <naming_instance_metadata/192.168.1.5:7848> onSnapshotLoadDone, last_included_index: 3
+last_included_term: 3
+peers: "192.168.1.5:7848"
+
+
+2024-05-24 12:12:10,687 INFO Node <naming_instance_metadata/192.168.1.5:7848> target priority value has changed from: 0, to: -1.
+
+2024-05-24 12:12:10,692 INFO Node <naming_instance_metadata/192.168.1.5:7848> init, term=3, lastLogId=LogId [index=3, term=3], conf=192.168.1.5:7848, oldConf=.
+
+2024-05-24 12:12:10,693 INFO Node <naming_instance_metadata/192.168.1.5:7848> start vote and grant vote self, term=3.
+
+2024-05-24 12:12:10,701 WARN Unable to fsync directory D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2024-05-24 12:12:10,701 INFO Save raft meta, path=D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=4, votedFor=192.168.1.5:7848, cost time=7 ms
+
+2024-05-24 12:12:10,702 INFO Node <naming_instance_metadata/192.168.1.5:7848> become leader of group, term=4, conf=192.168.1.5:7848, oldConf=.
+
+2024-05-24 12:12:10,702 WARN RPC server is not started in RaftGroupService.
+
+2024-05-24 12:12:10,702 INFO Start the RaftGroupService successfully.
+
+2024-05-24 12:12:10,704 INFO onLeaderStart: term=4.
+
+2024-05-24 12:12:10,711 INFO The number of active nodes increment to 3.
+
+2024-05-24 12:12:10,844 WARN Channel in TRANSIENT_FAILURE state: 192.168.1.5:7848.
+
+2024-05-24 12:12:10,844 WARN Channel in SHUTDOWN state: 192.168.1.5:7848.
+
+2024-05-24 12:12:10,899 INFO Starts FSMCaller successfully.
+
+2024-05-24 12:12:10,914 INFO Loading snapshot, meta=last_included_index: 3
+last_included_term: 3
+peers: "192.168.1.5:7848"
+.
+
+2024-05-24 12:12:10,937 INFO Node <naming_service_metadata/192.168.1.5:7848> onSnapshotLoadDone, last_included_index: 3
+last_included_term: 3
+peers: "192.168.1.5:7848"
+
+
+2024-05-24 12:12:10,938 INFO Node <naming_service_metadata/192.168.1.5:7848> target priority value has changed from: 0, to: -1.
+
+2024-05-24 12:12:10,943 INFO Node <naming_service_metadata/192.168.1.5:7848> init, term=3, lastLogId=LogId [index=3, term=3], conf=192.168.1.5:7848, oldConf=.
+
+2024-05-24 12:12:10,944 INFO Node <naming_service_metadata/192.168.1.5:7848> start vote and grant vote self, term=3.
+
+2024-05-24 12:12:10,949 WARN Unable to fsync directory D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2024-05-24 12:12:10,949 INFO Save raft meta, path=D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=4, votedFor=192.168.1.5:7848, cost time=4 ms
+
+2024-05-24 12:12:10,950 INFO Node <naming_service_metadata/192.168.1.5:7848> become leader of group, term=4, conf=192.168.1.5:7848, oldConf=.
+
+2024-05-24 12:12:10,951 WARN RPC server is not started in RaftGroupService.
+
+2024-05-24 12:12:10,951 INFO Start the RaftGroupService successfully.
+
+2024-05-24 12:12:10,952 INFO onLeaderStart: term=4.
+
+2024-05-24 12:12:11,881 ERROR Fail to connect 192.168.1.5:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED: deadline exceeded after 0.867698500s. [buffered_nanos=891496800, waiting_for_connection].
+
+2024-05-24 12:12:11,882 ERROR Fail to connect peer 192.168.1.5:7848 to get leader for group naming_persistent_service_v2.
+
+2024-05-24 12:12:11,887 ERROR Fail to connect 192.168.1.5:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED: deadline exceeded after 0.867699600s. [buffered_nanos=891497000, waiting_for_connection].
+
+2024-05-24 12:12:11,887 ERROR Fail to connect peer 192.168.1.5:7848 to get leader for group naming_instance_metadata.
+
+2024-05-24 12:31:45,780 WARN Unable to fsync directory D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2024-05-24 12:31:45,780 INFO Deleting snapshot D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_4.
+
+2024-05-24 12:31:45,780 INFO Renaming D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_4.
+
+2024-05-24 12:31:45,781 INFO Deleting snapshot D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_3.
+
+2024-05-24 12:38:08,746 WARN Unable to fsync directory D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2024-05-24 12:38:08,746 INFO Deleting snapshot D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_4.
+
+2024-05-24 12:38:08,746 INFO Renaming D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_4.
+
+2024-05-24 12:38:08,747 INFO Deleting snapshot D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_3.
+
+2024-05-24 12:39:10,778 WARN Unable to fsync directory D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2024-05-24 12:39:10,778 INFO Deleting snapshot D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_4.
+
+2024-05-24 12:39:10,778 INFO Renaming D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_4.
+
+2024-05-24 12:39:10,779 INFO Deleting snapshot D:\javacode\nacos-server-2.2.0\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_3.
+

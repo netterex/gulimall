@@ -1,0 +1,8 @@
+2024-05-28 13:19:13,384 INFO [PUSH-SUCC] 1007ms, all delay time 1611ms for subscriber 192.168.1.5, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-05-28 13:19:28,621 INFO [PUSH-SUCC] 8ms, all delay time 556ms for subscriber 192.168.1.5, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-05-28 20:02:38,682 INFO [PUSH-SUCC] 271ms, all delay time 791ms, SLA 792ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.1.5
+
+2024-05-28 20:03:10,131 INFO [PUSH-SUCC] 26ms, all delay time 567ms, SLA 567ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.1.5
+

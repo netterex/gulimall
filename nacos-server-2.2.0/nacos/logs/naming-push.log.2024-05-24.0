@@ -1,0 +1,40 @@
+2024-05-24 15:13:11,710 INFO [PUSH-SUCC] 1428ms, all delay time 2333ms for subscriber 192.168.1.5, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2024-05-24 15:16:35,589 INFO [PUSH-SUCC] 77ms, all delay time 626ms for subscriber 192.168.1.5, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2024-05-24 15:48:20,604 INFO [PUSH-SUCC] 55ms, all delay time 614ms for subscriber 192.168.1.5, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2024-05-24 15:49:45,462 INFO [PUSH-SUCC] 27ms, all delay time 594ms, SLA 594ms, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=192.168.1.5
+
+2024-05-24 15:50:15,913 INFO [PUSH-SUCC] 30ms, all delay time 620ms, SLA 621ms, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.1.5
+
+2024-05-24 16:01:00,175 INFO [PUSH-SUCC] 53ms, all delay time 573ms for subscriber 192.168.1.5, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-05-24 16:05:56,725 INFO [PUSH-SUCC] 40ms, all delay time 597ms for subscriber 192.168.1.5, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-05-24 16:09:58,820 INFO [PUSH-SUCC] 40ms, all delay time 564ms for subscriber 192.168.1.5, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-05-24 16:10:23,972 INFO [PUSH-SUCC] 41ms, all delay time 619ms, SLA 619ms, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.1.5
+
+2024-05-24 16:11:07,713 INFO [PUSH-SUCC] 73ms, all delay time 619ms, SLA 619ms, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.1.5
+
+2024-05-24 16:39:12,498 INFO [PUSH-SUCC] 46ms, all delay time 562ms for subscriber 192.168.1.5, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-05-24 16:42:43,332 INFO [PUSH-SUCC] 41ms, all delay time 614ms for subscriber 192.168.1.5, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-05-24 16:51:54,851 INFO [PUSH-SUCC] 41ms, all delay time 615ms for subscriber 192.168.1.5, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-05-24 16:51:56,376 INFO [PUSH-SUCC] 6ms, all delay time 533ms for subscriber 192.168.1.5, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-05-24 19:23:15,416 INFO [PUSH-SUCC] 44ms, all delay time 548ms for subscriber 192.168.1.5, Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-05-24 19:23:17,413 INFO [PUSH-SUCC] 152ms, all delay time 698ms for subscriber 192.168.1.5, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-05-24 19:49:45,476 INFO [PUSH-SUCC] 100ms, all delay time 673ms, SLA 674ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.1.5
+
+2024-05-24 19:50:18,968 INFO [PUSH-SUCC] 29ms, all delay time 632ms, SLA 633ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.1.5
+
+2024-05-24 19:52:18,114 INFO [PUSH-SUCC] 31ms, all delay time 568ms, SLA 568ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=192.168.1.5
+
+2024-05-24 19:52:39,677 INFO [PUSH-SUCC] 102ms, all delay time 630ms, SLA 631ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.1.5
+

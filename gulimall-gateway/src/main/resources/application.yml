@@ -11,8 +11,15 @@ spring:
             - Query=url,baidu
         - id: test_route_bilibili
           uri: https://www.bilibili.com
+
           predicates:
             - Query=url,bilibili
+        - id: product_route
+          uri: lb://gulimall-product
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
         - id: admin_route
           uri: lb://renren-fast
           predicates:
