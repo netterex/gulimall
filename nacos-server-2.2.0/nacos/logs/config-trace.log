@@ -1,9 +1,0 @@
-2024-05-28 13:16:34,197|192.168.1.5|gulimall-product|DEFAULT_GROUP|312b54da-885d-4c89-ae4f-8f40ac00546e|null|-1|pull|not-found|-1|192.168.1.5|false
-2024-05-28 13:16:34,245|192.168.1.5|gulimall-product.properties|DEFAULT_GROUP|312b54da-885d-4c89-ae4f-8f40ac00546e|null|-1|pull|not-found|-1|192.168.1.5|false
-2024-05-28 13:17:56,485|192.168.1.5|renren-fast|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|192.168.1.5|false
-2024-05-28 13:17:56,509|192.168.1.5|renren-fast.properties|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|192.168.1.5|false
-2024-05-28 13:17:56,525|192.168.1.5|renren-fast-dev.properties|DEFAULT_GROUP|null|null|-1|pull|not-found|-1|192.168.1.5|false
-2024-05-28 13:18:57,594|192.168.1.5|gulimall-gateway|DEFAULT_GROUP|c02cb493-49de-4fd2-92f2-e8fc84375686|null|-1|pull|not-found|-1|192.168.1.5|false
-2024-05-28 13:18:57,610|192.168.1.5|gulimall-gateway.yml|DEFAULT_GROUP|c02cb493-49de-4fd2-92f2-e8fc84375686|null|-1|pull|not-found|-1|192.168.1.5|false
-2024-05-28 20:03:00,028|192.168.1.5|gulimall-product|DEFAULT_GROUP|312b54da-885d-4c89-ae4f-8f40ac00546e|null|-1|pull|not-found|-1|192.168.1.5|false
-2024-05-28 20:03:00,058|192.168.1.5|gulimall-product.properties|DEFAULT_GROUP|312b54da-885d-4c89-ae4f-8f40ac00546e|null|-1|pull|not-found|-1|192.168.1.5|false
